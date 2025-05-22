@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import Hero from './components/hero/Hero'
 import EduExp from './components/eduexp/EduExp'
 import About from './components/about/About'
+import Project from './components/project/Project'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
      <Hero/>
      <About/>
      <EduExp/>
+     <Project/>
      </>
     
   )

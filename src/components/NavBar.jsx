@@ -6,10 +6,9 @@ import { FaChevronRight } from "react-icons/fa";
 
 
 function NavBar() {
-    const [activeLink, setActiveLink] = useState('/'); // Default active link is Home
-
+    const [activeLink, setActiveLink] = useState('/'); 
     const handleClick = (link) => {
-        setActiveLink(link); // Set the active link when a navbar item is clicked
+        setActiveLink(link); 
     };
 
     return (
@@ -32,6 +31,10 @@ function NavBar() {
                         </a>
                         <a href="#experience" onClick={() => handleClick('#experience')} className={activeLink === '#experience' ? 'text-yellow-200 border-b-2 border-yellow-200 pb-1' : ''}>
                             <li className='cursor-pointer'> Experience</li>
+                        </a>
+
+                         <a href="#project" onClick={() => handleClick('#project')} className={activeLink === '#project' ? 'text-yellow-200 border-b-2 border-yellow-200 pb-1' : ''}>
+                            <li className='cursor-pointer'> Project</li>
                         </a>
                         <a href="#contact"><button className='hero-btn'>Contact<FaChevronRight className='dwn'/></button></a>
            

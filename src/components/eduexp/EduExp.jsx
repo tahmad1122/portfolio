@@ -14,9 +14,7 @@ import postman from '../../assets/postman.png'
 function EduExp() {
 
   return (
-
-    <>
-      <div className="mainexp" id="#experience">
+      <div className="mainexp" id="experience">
         <h1 className="exp-title"></h1>
         <p className="exp-name">Experience</p>
         <div className="expline"></div>
@@ -54,7 +52,7 @@ function EduExp() {
                   <img src={checkmark} alt="Experience icon" className="exricon" />
                   <div>
                     <h3>React JS</h3>
-                    <p>Basic</p>
+                    <p>Intermediate</p>
                   </div>
                 </div>
 
@@ -114,8 +112,8 @@ function EduExp() {
                 <div className="skill-item">
                   <img src={checkmark} alt="Experience icon" className="exricon" />
                   <div>
-                    <h3>TypeScript</h3>
-                    <p>Basic</p>
+                    <h3>Maven</h3>
+                    <p>Experienced</p>
                   </div>
                 </div>
 
@@ -132,6 +130,7 @@ function EduExp() {
         </div>
 
         <p className='myskills'>Tools</p>
+        <div className="skiline"></div>
         <div className='mytool'>
           <img src={java} alt="" className='toolicon' />
           <img src={JS} alt="" className='toolicon' />
@@ -142,7 +141,6 @@ function EduExp() {
         </div>
 
       </div>
-    </>
   )
 }
 
