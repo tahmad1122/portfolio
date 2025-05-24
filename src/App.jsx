@@ -7,6 +7,8 @@ import Hero from './components/hero/Hero'
 import EduExp from './components/eduexp/EduExp'
 import About from './components/about/About'
 import Project from './components/project/Project'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
      <About/>
      <EduExp/>
      <Project/>
+     <Contact/>
+     <Footer/>
      </>
     
   )

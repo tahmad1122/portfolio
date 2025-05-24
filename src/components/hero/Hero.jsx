@@ -3,36 +3,37 @@ import './hero.css';
 import logo from '../../assets/logo.png';
 import { LuContactRound, LuDownload, LuFacebook, LuGithub, LuInstagram, LuLinkedin, LuYoutube } from "react-icons/lu";
 import { Link } from 'react-router';
- 
+
 
 const Hero = () => {
   return (
-<>
+    <>
 
-          <div className="maindiv">
+      <div className="maindiv">
         <div className="text">
           <h1 className="hero-title">
-                 Hi👋, I'm
+            Hi👋, I'm
             <p className="name">Tauseef Ahmad</p>
-         </h1>
-              <p className="hero-description">Full-Stack Developer | MERN Stack Enthusiast</p>
-              <p className='details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laboriosam iste ipsa dolores? Voluptas et quae eveniet obcaecati voluptatibus eaque dolorem fugiat labore cumque esse.</p>
-              <div className='btn'>
-              <button className=' hbtn'><LuContactRound className='dwn' />Contact me</button>
-              <button className=' hbtn'><LuDownload className='dwn' />Download CV</button>
-              </div>
-              <div className='social'>
-              <Link className='' to="/"><LuYoutube className='dwn' /></Link>
-              <Link className='' to="/"><LuLinkedin className='dwn' /></Link>
-              <Link className='' to="/"><LuGithub className='dwn' /></Link>
-              <Link className='' to="/"><LuFacebook className='dwn' /></Link>
-              <Link className='' to="/"><LuInstagram className='dwn' /></Link>      
-              </div>
-            </div>
-            <div className="imageName">
-              <img src={logo} alt="logo" />
-            </div>
+          </h1>
+          <p className="hero-description">Full-Stack Developer | MERN Stack Enthusiast</p>
+          <p className='details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laboriosam iste ipsa dolores? Voluptas et quae eveniet obcaecati voluptatibus eaque dolorem fugiat labore cumque esse.</p>
+          <div className='btn'>
+            <a href="#contact" className=' hbtn'><LuContactRound className='dwn' />Contact me</a>
+            {/* <button className=' hbtn'><LuContactRound className='dwn' />Contact me</button> */}
+            <button className=' hbtn'><LuDownload className='dwn' />Download CV</button>
           </div>
+          <div className='social'>
+            <Link className='' to="/"><LuYoutube className='dwn' /></Link>
+            <Link className='' to="/"><LuLinkedin className='dwn' /></Link>
+            <Link className='' to="/"><LuGithub className='dwn' /></Link>
+            <Link className='' to="/"><LuFacebook className='dwn' /></Link>
+            <Link className='' to="/"><LuInstagram className='dwn' /></Link>
+          </div>
+        </div>
+        <div className="imageName">
+          <img src={logo} alt="logo" />
+        </div>
+      </div>
 
 
 
@@ -46,7 +47,7 @@ const Hero = () => {
 
 
 
-    {/* // <div className="hero">
+      {/* // <div className="hero">
     //   <div className="hero-content">
     //     <h1 className="hero-title">Hi👋, I'm <p className='text-blue-400 md:text-6xl text-4xl font-bold mb-4'>Tauseef Ahmad</p></h1>
     //     <p className="hero-description">Full-Stack Developer | MERN Stack Enthusiast</p>
@@ -60,7 +61,7 @@ const Hero = () => {
       
     // </div> */}
 
-    {/* <section className="hero">
+      {/* <section className="hero">
       <div className="hero-content">
       <h1 className="text-4xl font-bold">Hi, I'm Ahmad 👋</h1>
       <p className="text-xl mt-4">QA Analyst | Automation Tester</p>

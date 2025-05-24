@@ -137,6 +137,7 @@ body {
   .maindiv {
     flex-direction: row;
   }
+  
 }
 
 /* Left side: Text content */
@@ -277,6 +278,7 @@ body {
   .imageName img {
     max-width: 80%;
     height: auto;
+    display: none;
   }
 
   .details {
