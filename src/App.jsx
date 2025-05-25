@@ -9,14 +9,14 @@ import About from './components/about/About'
 import Project from './components/project/Project'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Navigation from './components/navbar/Navigation'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-     <NavBar/>
+    <Navigation/>
      <Hero/>
      <About/>
      <EduExp/>

@@ -36,13 +36,9 @@ function About() {
           <p>Bachelors Degree</p>
         </div>
         </div>
-        <p className="about-description">Hi! I'm XYZ, a passionate Full-Stack Developer with expertise in the MERN stack,
-          WordPress, and SEO. With a strong foundation in modern web development and an eye for detail,
-          I create elegant, user-friendly web solutions tailored to meet client needs.</p>
+        <p className="about-description">Hi! I'm <strong>Tauseef Ahmad</strong>, a passionate Frontend Developer and QA Automation Engineer with over 3 years of experience. Skilled in Java, JavaScript, and React, I specialize in crafting elegant, user-friendly web applications while ensuring top-notch quality through automation. My expertise includes Selenium WebDriver, Java, TestNG, and the POM framework. Additionally, I have hands-on experience with CI/CD tools like Jenkins, version control using GitHub, and optimizing workflows. I combine strong web development skills with an eye for detail,
+           delivering solutions that meet client needs while maintaining high standards of performance and reliability.</p>
 
-          <p className="about-description">Hi! I'm XYZ, a passionate Full-Stack Developer with expertise in the MERN stack,
-          WordPress, and SEO. With a strong foundation in modern web development and an eye for detail,
-          I create elegant, user-friendly web solutions tailored to meet client needs.</p>
 
         <p className='skill'>My Skills</p>
         <div className='about-btn'>
@@ -64,63 +60,6 @@ function About() {
       </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // <section className='about' id="about">
-    //   <div>
-    //     <h1 className="about-title">About Me</h1>
-    //   </div>
-
-    //   <div className="about-content">
-    //     <img src={logo} alt="logo" className='about-image' />
-    //     <div className='about-details'>
-    //       <p className="about-description">
-    //         Hi! I'm XYZ, a passionate Full-Stack Developer with expertise in the MERN stack,
-    //         WordPress, and SEO. With a strong foundation in modern web development and an eye for detail,
-    //         I create elegant, user-friendly web solutions tailored to meet client needs.</p>
-    //       <p className="about-description">
-    //         My journey into tech began from a non-IT background, and I've embraced every challenge to hone my
-    //         skills in development, problem-solving, and teamwork.
-    //         I’m always eager to learn and explore new technologies to deliver cutting-edge web experiences.</p>
-    //       <p className="about-description">
-    //         When I’m not coding, I enjoy sharing my knowledge through my <a href="" className='text-yellow-200'>YouTube channel,</a> where I teach JavaScript, MERN stack, and WordPress concepts.
-    //         Let’s connect and build something amazing together!</p>
-    //       <div>
-    //         <h1 className="about-skills">My Skills</h1>
-    //       </div>
-    //       <div className='skill-container'>
-    //         <p className="skills">Java</p>
-    //         <p className="skills ">Java Script</p>
-    //         <p className="skills">React</p>
-    //         <p className="skills">Databse</p>
-    //       </div>
-    //        <a href="#contact"><button className='about-btn'>Contact<FaChevronRight className='dwn'/></button></a>
-    //     </div>
-
-
-    //   </div>
-
-    // </section>
-
-
 
   )
 }
