@@ -73,7 +73,7 @@ function EduExp() {
           </div>
 
           <div className="details-container">
-            <h2 className="experience-sub-title">Automation Testing</h2>
+            <h2 className="experience-sub-title">QA Automation </h2>
             <div className="article-container">
               <div className="skill-item">
                 <img src={checkmark} alt="Experience icon" className="exricon" />

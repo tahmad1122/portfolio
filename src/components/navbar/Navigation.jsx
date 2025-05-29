@@ -43,7 +43,7 @@ function Navigation() {
                 </li>
 
                 <li>
-                    <a href="#contact" className='navbar-item'><button className='contact-nav'>Contact</button></a>
+                    <a href="#contact" className='navbar-item' onClick={() => handleClick("#contact")}><button className='contact-nav'>Contact</button></a>
                 </li>
             </ul>
             {/* //Mobile view */}

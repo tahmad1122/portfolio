@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css';
 import logo from '../../assets/logo.png';
+import img from '../../assets/img.png';
 import { LuContactRound, LuDownload, LuFacebook, LuGithub, LuInstagram, LuLinkedin, LuYoutube } from "react-icons/lu";
 import experience from '../../assets/experience.png';
 import { FaChevronRight } from "react-icons/fa";
@@ -14,7 +15,7 @@ function About() {
 
     <div className="mainabout" id="about">
       <div className="aboutimageName">
-        <img src={logo} alt="logo" />
+        <img src={img} alt="logo" />
       </div>
       <div className="about-details">
         <h1 className="about-title">

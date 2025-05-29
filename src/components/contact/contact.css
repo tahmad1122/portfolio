@@ -51,7 +51,7 @@
     height: 2rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 485px) {
     .contact-name {
         font-size: 40px;
         font-family: 'Franklin Gothic Medium';

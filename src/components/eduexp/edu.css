@@ -1,117 +1,8 @@
-/* 
-
-.container {
-    width: 80%;
-    margin: 40px auto;
+.mainexp {
+  background-color: hsl(237 22% 23%);
+  padding-bottom: 50px;
 }
 
-.section-title {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.grid {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.sub-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.card {
-    display: flex;
-    align-items: start;
-    background-color: #161b22;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-}
-
-.icon {
-    font-size: 34px;
-    margin-right: 15px;
-}
-
-.card-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.card-text, .card-year, .card-description {
-    font-size: 16px;
-    margin-bottom: 5px;
-} */
-
-/* =====================new css======================= */
-/* .experience-details-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.about-containers{
-        gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
-}
-
-.article-container {
-    display: flex;
-    text-align: initial;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
-}
-
-.exricon{
-   
-    height: 2rem;
-}
-
- 
-  .exp-title {
-    font-size: 15px;
-    
-  }
-  
-  .exp-name{
-    font-size: 72px;
-    line-height: 80px;
-    font-weight: 700;
-    font-family: 'Franklin Gothic Medium';
-  }
-
-   .expline {
-            border-bottom: 5px solid red;
-            margin-bottom: 20px;
-            width: 20%;
-        } */
-  
-/* Make the red line centered like in the image */
-
-.mainexp{
-    background-color: hsl(237 22% 23%);
-    padding-bottom: 50px;
-}
-/* Title Section */
 .exp-title {
   font-size: 20px;
   font-weight: 600;
@@ -128,22 +19,19 @@
   font-family: 'Franklin Gothic Medium';
 }
 
-/* Underline below title */
 .expline {
-    border-bottom: 5px solid red;
-    margin-bottom: 20px;
-    width: 20%;
-    margin: auto;
+  border-bottom: 5px solid red;
+  margin-bottom: 20px;
+  width: 20%;
+  margin: auto;
 }
 
-/* Outer Container */
 .experience-details-container {
-  
+
   justify-content: center;
   margin: 30px;
 }
 
-/* Container Wrapper */
 .about-containers {
   display: flex;
   flex-wrap: wrap;
@@ -151,54 +39,48 @@
   gap: 20px;
 }
 
-/* Card Style */
+
 .details-container {
   width: 100%;
   max-width: 600px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
   padding: 1.5rem;
- 
-background: white;
-border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
 }
 
-/* Sub-heading */
 .experience-sub-title {
-     color: rgb(85, 85, 85);
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
-    text-align: center;
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
-/* Skills Grid */
 .article-container {
-    display: flex;
-    text-align: initial;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
-    margin-bottom: 25px;
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+  margin-bottom: 25px;
 }
 
-/* Each Skill Row */
 .skill-item {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-/* Icon Style */
 .exricon {
   width: 40px;
   height: 40px;
 }
 
-/* Skill Text */
 .skill-item h3 {
   font-size: 16px;
   font-weight: 600;
@@ -211,76 +93,78 @@ border-radius: 2rem;
   margin: 0;
 }
 
-.myskills{
-    text-align: center;
-    color: #ffffff;
-    font-size: 60px;
-    font-weight: 700;
-    font-family: 'Franklin Gothic Medium';
+.myskills {
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium';
 }
 
-.mytool{
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    -moz-column-gap: 15px;
-    column-gap: 15px;
+.mytool {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  -moz-column-gap: 15px;
+  column-gap: 15px;
 }
 
-.mytooluse{
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 15px;
-    background-color: #ffffff;
-    color: hwb(0 15% 85% / 0.973);
-    /* border-radius: 9999px; */
-    text-align: center;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding: 8px;
-    box-shadow: rgb(255 13 13 / 98%) -3px 0px 0px 0px;
+.mytooluse {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: hwb(0 15% 85% / 0.973);
+  /* border-radius: 9999px; */
+  text-align: center;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding: 8px;
+  box-shadow: rgb(255 13 13 / 98%) -3px 0px 0px 0px;
 
 }
-.toolicon{
-    background: white;
-    width: 80px;
-    height: 70px;
-    box-shadow: rgb(255 93 12 / 98%) 0px 3px 0px 0px;
+
+.toolicon {
+  background: white;
+  width: 80px;
+  height: 70px;
+  box-shadow: rgb(255 93 12 / 98%) 0px 3px 0px 0px;
 }
 
 .toolicon:hover {
-    background: #ffffff; 
-    box-shadow: rgba(0, 0, 0, 0.98) 0px 6px 10px 0px; 
-    transform: translateY(-1px); 
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.98) 0px 6px 10px 0px;
+  transform: translateY(-1px);
 }
 
-.skiline{
-    border-bottom: 5px solid red;
-    margin-bottom: 20px;
-    width: 5%;
-    margin: auto;
-    margin-bottom: 20px;
+.skiline {
+  border-bottom: 5px solid red;
+  margin-bottom: 20px;
+  width: 5%;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 /* Responsive */
-@media (max-width: 480px) {
+@media (max-width: 485px) {
 
-.exp-name {
+  .exp-name {
     font-size: 48px;
     font-weight: 700;
     text-align: center;
     color: #ffffff;
     margin-top: 0;
-}
+  }
 
-.mytool{
+  .mytool {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     padding: 15px;
-}
- .toolicon {
+  }
+
+  .toolicon {
     width: 70px;
     height: 70px;
   }
